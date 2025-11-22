@@ -82,6 +82,10 @@ python arc_chatbot.py
 ```
 
 ---
+3️⃣ **Clone the Repo
+```bash
+git clone https://github.com/codertheashish/Arc_Chatbot.git
+```
 
 ## ▶ How It Works
 
