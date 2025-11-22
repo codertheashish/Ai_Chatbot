@@ -1,12 +1,15 @@
 # Ai_Chatbot
 ARC is a simple offline Python chatbot using pyttsx3 for text-to-speech. It responds to basic greetings and emotional prompts with friendly, predefined replies. Lightweight, easy to modify, and works without internet. Perfect for beginners exploring chatbots and offline TTS.
 
+
 # 🤖 ARC – Offline AI Chatbot (Python + pyttsx3 TTS)
 
 ARC is a lightweight offline AI chatbot built using Python and pyttsx3.
 It can talk to you using **offline text-to-speech**, understand basic greetings, emotions, and answer simple questions — all without internet.
 
 It’s designed for learning, fun, and beginner-friendly AI interaction.
+
+---
 
 ## 🚀 Features
 
@@ -40,6 +43,8 @@ ARC can respond to:
 * Modify speaking speed
 * Extend chatbot behaviour
 
+---
+
 ## 🎮 Controls (Chat Commands)
 
 | User Input     | Bot Response      |
@@ -53,20 +58,30 @@ ARC can respond to:
 
 …and many more.
 
+---
+
 ## 🛠 Tech Stack
 
 * **Python 3.x**
 * **pyttsx3** (Offline TTS)
 
+---
+
 ## 📦 Installation
 
 1️⃣ **Install Dependencies**
 
+```bash
 pip install pyttsx3
+```
 
 2️⃣ **Run the Chatbot**
 
+```bash
 python arc_chatbot.py
+```
+
+---
 
 ## ▶ How It Works
 
@@ -76,11 +91,17 @@ python arc_chatbot.py
 * pyttsx3 speaks the output
 * Loop continues until you type `exit`
 
+---
+
 ## 📁 File Structure
 
+```
 ARC-Chatbot/
 │── arc_chatbot.py
 │── README.md
+```
+
+---
 
 ## 🤖 ARC’s Working Logic
 
@@ -90,6 +111,8 @@ ARC-Chatbot/
 * Generates audio + text output
 * Fully local processing—no internet
 
+---
+
 ## 🌟 Future Upgrades
 
 * Add emotion detection
@@ -98,9 +121,13 @@ ARC-Chatbot/
 * Add voice input (SpeechRecognition)
 * Store chat history
 
+---
+
 ## 📜 License
 
 This project is open-source under MIT License.
+
+---
 
 ## 👨‍💻 Author
 
