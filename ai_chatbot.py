@@ -37,7 +37,7 @@ def chatbot_response(user_input):
     elif "are you happy" in user_input:
         return "Of course! Talking to you makes me happy 😊."
     elif "who created you" in user_input:
-        return "I am created by a INFINITY 1.0 Group💢."
+        return "I am created by a ASHISH."
     elif "where are you from" in user_input:
         return "I live in your computer/phone 😄."
     elif "tell me a joke" in user_input:
@@ -100,16 +100,17 @@ def chatbot_response(user_input):
         return "Sorry, I did not understand that."
 
 # Main loop
-print("              INFINITY 1.0 💢                ")
-print("AI CHATBOT is running... Type 'exit' to quit.")
+print("              ARC CHATBOT 💢                ")
+print("ARC CHATBOT is running... Type 'exit' to quit.")
 while True:
     user_input = input("You: ")
     
     if user_input.lower() == "exit":
-        print("AI Chatbot: Goodbye! Have a nice day.")
+        print("ARC Chatbot: Goodbye! Have a nice day.")
         speak("Goodbye! Have a nice day.")
         break
     
     response = chatbot_response(user_input)
     print("Chatbot:", response)
     speak(response)
+
